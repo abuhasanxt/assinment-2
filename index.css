@@ -110,6 +110,7 @@ hr {
 main {
   max-width: 1440px;
   margin: 0 auto;
+  background-image: url(./assets/bg.png);
 }
 .carriculum-section {
   margin-top: 40px;
