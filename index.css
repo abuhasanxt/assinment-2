@@ -168,21 +168,25 @@ main {
   margin: 30px 0;
 }
 .less i {
-  margin-right: 20px;
+  background-color: orange;
+  text-align: center;
+  padding: 5px;
+  color: white;
+  border-radius: 50px;
 }
 /* story-section */
-.story{
+.story {
   max-width: 1160px;
   margin: 0 auto;
 }
-.desk{
+.desk {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
-.first-story{
+.first-story {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 .story-heading {
@@ -209,7 +213,7 @@ main {
   bottom: 160px;
   left: 45px;
 }
-.story-2{
+.story-2 {
   position: relative;
   text-align: center;
   border: 1px solid white;
@@ -217,31 +221,31 @@ main {
   width: 100%;
   overflow: hidden;
 }
-.story-2 img{
+.story-2 img {
   width: 100%;
 }
-.story-2-btn{
+.story-2-btn {
   position: absolute;
   padding: 14px 29px;
   border-radius: 50px;
   border: none;
   text-wrap: nowrap;
-  background-color: #95B226;
+  background-color: #95b226;
   color: white;
   left: 25%;
   bottom: 60px;
 }
-.summer{
-  background-color: #5D58F0;
+.summer {
+  background-color: #5d58f0;
 }
-.mobile-story{
+.mobile-story {
   display: none;
 }
-.view-btn{
+.view-btn {
   margin: 20px 0;
   text-align: center;
 }
-.view-all{
+.view-all {
   background-color: black;
   color: white;
   border: none;
@@ -250,40 +254,38 @@ main {
 }
 
 /* footer-section */
-footer{
- 
- background-color: #01ACFD;
+footer {
+  background-color: #01acfd;
 }
-.footer-contain{
+.footer-contain {
   display: flex;
   justify-content: space-between;
   max-width: 1060px;
   margin: 0 auto;
   padding: 60px 40px;
 }
-.left{
+.left {
   width: 100%;
 }
-.middle{
+.middle {
   width: 100%;
 }
-.right{
+.right {
   width: 100%;
 }
-.middle li{
+.middle li {
   list-style: none;
   margin-bottom: 10px;
   align-items: center;
- 
 }
-li a{
+li a {
   text-decoration: none;
   color: white;
 }
-.color{
+.color {
   color: white;
 }
-.footer-icon{
+.footer-icon {
   display: flex;
   gap: 10px;
 }
@@ -321,19 +323,19 @@ li a{
   .less {
     display: none;
   }
-  .story-2-btn{
+  .story-2-btn {
     padding: 0 20px;
     top: 120px;
   }
-  .desk{
+  .desk {
     display: none;
   }
-  .mobile-story{
+  .mobile-story {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 10px;
   }
-  .footer-contain{
+  .footer-contain {
     flex-direction: column;
   }
 }
