@@ -185,11 +185,7 @@ main {
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
-.first-story {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-}
+
 .story-heading {
   text-align: center;
   font-size: 2.6rem;
@@ -212,14 +208,18 @@ main {
   background-color: #3cd8e8;
   color: white;
   bottom: 160px;
-  left: 45px;
+  left: 90px;
+}
+.first-story {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
 }
 .story-2 {
   position: relative;
   text-align: center;
   border: 1px solid white;
   box-shadow: 0 6px 6px gray;
-  width: 100%;
   overflow: hidden;
 }
 .story-2 img {
@@ -289,6 +289,9 @@ li a {
 .footer-icon {
   display: flex;
   gap: 10px;
+}
+marquee{
+  color: red;
 }
 
 @media screen and (max-width: 576px) {
